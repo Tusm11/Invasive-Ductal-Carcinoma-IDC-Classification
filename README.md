@@ -36,19 +36,19 @@ We employ **Transfer Learning** with two state-of-the-art architectures optimize
 
 ##  How to Run & Test
 
-### 1️ Installation
+### 1️. Installation
 Ensure you have the required libraries installed:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️ Download Data
+### 2️. Download Data
 If you haven't already, download the IDC dataset:
 ```bash
 kaggle datasets download -d paultimothymooney/breast-histopathology-images -p data/breast_histopathology --unzip
 ```
 
-### 3️ Launch the Diagnostic App
+### 3️. Launch the Diagnostic App
 Run the interactive Streamlit web application:
 ```bash
 streamlit run app.py
