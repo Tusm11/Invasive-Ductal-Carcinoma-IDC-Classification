@@ -1,6 +1,6 @@
 # 🩺 IDC-Net: Invasive Ductal Carcinoma (IDC) Classification using Deep Learning
 
-## 📌 Project Overview
+## Project Overview
 Monitoring and diagnosing **Invasive Ductal Carcinoma (IDC)**—the most common form of breast cancer—is critical for early intervention. This project implements a deep learning pipeline to automatically classify histopathology image patches as either **IDC Negative** or **IDC Positive**.
 
 The models are trained to recognize microscopic cellular patterns that distinguish cancerous tissue from healthy tissue, specifically focusing on IDC which often characterizes more advanced stages of breast cancer.
@@ -22,7 +22,7 @@ The dataset is organized by Patient IDs, allowing for robust testing and validat
 
 ---
 
-## 🧠 Methodology & Models
+## Methodology & Models
 We employ **Transfer Learning** with two state-of-the-art architectures optimized for efficient execution on standard hardware (including CPU-only systems):
 
 1.  **VGG16**: Optimized for texture and spatial pattern recognition.
@@ -34,21 +34,21 @@ We employ **Transfer Learning** with two state-of-the-art architectures optimize
 
 ---
 
-## 🚀 How to Run & Test
+##  How to Run & Test
 
-### 1️⃣ Installation
+### 1️ Installation
 Ensure you have the required libraries installed:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Download Data
+### 2️ Download Data
 If you haven't already, download the IDC dataset:
 ```bash
 kaggle datasets download -d paultimothymooney/breast-histopathology-images -p data/breast_histopathology --unzip
 ```
 
-### 3️⃣ Launch the Diagnostic App
+### 3️ Launch the Diagnostic App
 Run the interactive Streamlit web application:
 ```bash
 streamlit run app.py
