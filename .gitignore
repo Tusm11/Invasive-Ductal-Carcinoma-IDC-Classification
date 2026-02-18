@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Data and Models (Too large for GitHub)
+data/
+models/*.h5
+models/*.pkl
+gradcam/results/
+evaluation/*.png
+
+# Environment & Config
+.env
+kaggle.json
+
+# IDEs
+.vscode/
+.idea/
