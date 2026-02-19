@@ -72,4 +72,4 @@ The models are evaluated on:
 
 ## 👨‍💻 Author
 **M V Abhiram**  
-AI/ML Enthusiast
+AI/ML Student
